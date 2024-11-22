@@ -6,5 +6,11 @@
   "tags": [],
   "implicitDependencies": ["demo"],
   "// targets": "to see all targets run: nx show project demo-e2e --web",
-  "targets": {}
+  "targets": {
+    "e2e": {
+      "configurations": {
+        "cypress": {}
+      }
+    }
+  }
 }

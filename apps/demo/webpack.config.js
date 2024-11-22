@@ -2,6 +2,9 @@ const { NxAppWebpackPlugin } = require('@nx/webpack/app-plugin');
 const { NxReactWebpackPlugin } = require('@nx/react/webpack-plugin');
 const { join } = require('path');
 
+console.log(`webpack: test env var -->`, process.env.TEST_VAR);
+// you can dynamically configure various webpack options in here based on this value that is set via the different env files nx is using.
+// optionally, you can manually set values and use something like dotenv to manually load your preferred env files.
 module.exports = {
   output: {
     path: join(__dirname, '../../dist/apps/demo'),
