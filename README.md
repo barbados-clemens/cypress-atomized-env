@@ -17,3 +17,9 @@ We then use the `NX_TASK_TARGET_CONFIGURATION` env var in the cypress config to 
 The configuration has to exist so, so even if nothing changes for the configuration name you can leave the configuration value blank.
 
 Just make sure you set the configuration value in CI as well, and/or set the desired env vars in the CI environment before running Nx.
+
+## Notes:
+
+This when using .mjs for the cypress config, there is an issue where the deep import of the package isn't able to resolve. For now we apply a patch to define an `exports` on the `@nx/cypress` package. See [`.yarn/patches/@nx-cypress`](.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch) for the patch details.
+
+Because of yarn PnP strictness, we have to include any sub packages in the root package.json that will be called during the running of cypress, such as the webpack, webpack-dev-server, and webpack-cli.
