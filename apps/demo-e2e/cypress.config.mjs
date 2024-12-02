@@ -1,4 +1,4 @@
-import { nxE2EPreset } from '@nx/cypress/plugins/cypress-preset';
+import { nxE2EPreset } from '@nx/cypress/plugins/cypress-preset.js';
 import { defineConfig } from 'cypress';
 import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);

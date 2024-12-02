@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", "npm:7.26.0"],\
           ["@babel/preset-react", "virtual:53837c94fe0f74fafc75833122c429cfaa547fd5fc7a6d940cac3b691a98f8d8c1a980b7cdd8cd9afbd5a152244f09ae2b693859798df1e2ad67d70e49a9f4d3#npm:7.25.9"],\
           ["@eslint/js", "npm:9.15.0"],\
-          ["@nx/cypress", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch::version=20.1.2&hash=3934df"],\
+          ["@nx/cypress", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#npm:20.1.2"],\
           ["@nx/eslint", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#npm:20.1.2"],\
           ["@nx/eslint-plugin", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#npm:20.1.2"],\
           ["@nx/jest", "npm:20.1.2"],\
@@ -2928,7 +2928,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/core", "npm:7.26.0"],\
           ["@babel/preset-react", "virtual:53837c94fe0f74fafc75833122c429cfaa547fd5fc7a6d940cac3b691a98f8d8c1a980b7cdd8cd9afbd5a152244f09ae2b693859798df1e2ad67d70e49a9f4d3#npm:7.25.9"],\
           ["@eslint/js", "npm:9.15.0"],\
-          ["@nx/cypress", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch::version=20.1.2&hash=3934df"],\
+          ["@nx/cypress", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#npm:20.1.2"],\
           ["@nx/eslint", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#npm:20.1.2"],\
           ["@nx/eslint-plugin", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#npm:20.1.2"],\
           ["@nx/jest", "npm:20.1.2"],\
@@ -4376,17 +4376,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@nx/cypress", [\
-      ["patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch::version=20.1.2&hash=3934df", {\
-        "packageLocation": "./.yarn/unplugged/@nx-cypress-virtual-f35b6695d0/node_modules/@nx/cypress/",\
+      ["npm:20.1.2", {\
+        "packageLocation": "./.yarn/unplugged/@nx-cypress-virtual-7d2d1b3f98/node_modules/@nx/cypress/",\
         "packageDependencies": [\
-          ["@nx/cypress", "patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch::version=20.1.2&hash=3934df"]\
+          ["@nx/cypress", "npm:20.1.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch::version=20.1.2&hash=3934df", {\
-        "packageLocation": "./.yarn/unplugged/@nx-cypress-virtual-f35b6695d0/node_modules/@nx/cypress/",\
+      ["virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#npm:20.1.2", {\
+        "packageLocation": "./.yarn/unplugged/@nx-cypress-virtual-7d2d1b3f98/node_modules/@nx/cypress/",\
         "packageDependencies": [\
-          ["@nx/cypress", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch::version=20.1.2&hash=3934df"],\
+          ["@nx/cypress", "virtual:c4812d80977e8d5b1c45e81abff6e641a152fb3bb2bfb96aa1680ae0940a5d0fb546e63959b9f9965a8fae762b9d27d25f039504162ce306f5efb32b37669719#npm:20.1.2"],\
           ["@nx/devkit", "virtual:5fc6070c5486b9cd28d87bc358a063afd70f92f44ce30f5e4ff827f8a79ab4d7e61cec86f9c51cb568231fc94af66136b24c6a67e6030f1a59086ca038beacde#npm:20.1.2"],\
           ["@nx/eslint", "virtual:d0d767d3f6ea23eb3904ed74d049e8bb2133ecfcec53b5bddd7a5e1f3d48452cd70c3c13c80331a5f319376b213c6d35618e9b08310800c3ff4c50f8a53cdee4#npm:20.1.2"],\
           ["@nx/js", "virtual:5fc6070c5486b9cd28d87bc358a063afd70f92f44ce30f5e4ff827f8a79ab4d7e61cec86f9c51cb568231fc94af66136b24c6a67e6030f1a59086ca038beacde#npm:20.1.2"],\

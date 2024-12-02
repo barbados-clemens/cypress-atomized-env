@@ -1481,7 +1481,7 @@ __metadata:
     "@babel/core": "npm:^7.14.5"
     "@babel/preset-react": "npm:^7.14.5"
     "@eslint/js": "npm:^9.8.0"
-    "@nx/cypress": "patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch"
+    "@nx/cypress": "npm:20.1.2"
     "@nx/eslint": "npm:20.1.2"
     "@nx/eslint-plugin": "npm:20.1.2"
     "@nx/jest": "npm:20.1.2"
@@ -2705,25 +2705,6 @@ __metadata:
     cypress:
       optional: true
   checksum: 10c0/31251c17c52e1b721570cd327e64a03c3afc578befcaf5c51193d603043893416bd400394dfb62ae89b413782933c2e0f5e068ffdd4e163970b75f09203d5887
-  languageName: node
-  linkType: hard
-
-"@nx/cypress@patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch":
-  version: 20.1.2
-  resolution: "@nx/cypress@patch:@nx/cypress@npm%3A20.1.2#~/.yarn/patches/@nx-cypress-npm-20.1.2-383fe671e4.patch::version=20.1.2&hash=3934df"
-  dependencies:
-    "@nx/devkit": "npm:20.1.2"
-    "@nx/eslint": "npm:20.1.2"
-    "@nx/js": "npm:20.1.2"
-    "@phenomnomnominal/tsquery": "npm:~5.0.1"
-    detect-port: "npm:^1.5.1"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    cypress: ">= 3 < 14"
-  peerDependenciesMeta:
-    cypress:
-      optional: true
-  checksum: 10c0/0d21dac8eec92abbfa8276af7ae1f98f2690b83316d034fdf157f7a3704200c10802d228d3740b62d8d61301d982182ecf5b7630c65082253be4981536235168
   languageName: node
   linkType: hard
 
